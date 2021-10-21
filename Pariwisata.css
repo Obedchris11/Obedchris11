@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: red;
+  font-family: verdana;
+}
+
+section {
+  min-height: 100vh;
+}
+
+section.banner {
+  position: relative;
+  width: 100%;
+  background-image: url(https://3.bp.blogspot.com/-k_9-4DyeRKI/VwPx0H9HGoI/AAAAAAAAAFM/_i0oZrT0RN4oLKGExlIpqiC2qJqgnaHYQ/s1600/23373625304_00204e33fa_b.jpg);
+  background-size: cover;
+}
+
+.about {
+  background-color: lightgray;
+}
+.about img {
+  width: 100%;
+}
+
+.p {
+  text-align: justify;
+}
+
+.kuliner {
+  background-color: lightgray;
+}
+
+.wisata img {
+  width: 100%;
+}
+
+@media screen and (min-width: 450px) {
+  .wisata img {
+    width: 50%;
+  }
+
+  .banner {
+    width: 50%;
+  }
+}
+
+/*untuk layar device berukuran sedang*/
+@media screen and (min-width: 550px) {
+  .banner {
+    width: 33%;
+  }
+
+  .wisata img {
+    width: 67%;
+  }
+}
+
+/*untuk layar device berukuran besar*/
+@media screen and (min-width: 800px) {
+  .banner {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .wisata img {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
